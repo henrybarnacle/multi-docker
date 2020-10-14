@@ -1,0 +1,22 @@
+sudo: required
+services:
+  - docker
+before_install:
+  - docker build -t henrybarnacle/react-test -f ./client/Dockerfile.dev ./client
+
+script:
+  - docker run henrybarnacle/react-test npm test -- --coverage
+
+after_success:
+  - docker build -t henrybarnacle/multi-client ./client
+  - docker build -t henrybarnacle/multi-nginx ./nginx
+  - docker build -t henrybarnacle/multi-server ./server
+  - docker build -t henrybarnacle/multi-worker ./worker
+
+#log in to docker CLI
+-echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+#take those images nd push them to docker hub
+- docker push henrybarnacle/multi-client
+- docker push henrybarnacle/multi-nginx
+- docker push henrybarnacle/multi-server
+- docker push henrybarnacle/multi-worker
