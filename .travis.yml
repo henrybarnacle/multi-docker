@@ -14,10 +14,8 @@ after_success:
   - docker build -t henrybarnacle/multi-server ./server
   - docker build -t henrybarnacle/multi-worker ./worker
 
-#log in to docker CLI
 
--echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-#take those images nd push them to docker hub
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 - docker push henrybarnacle/multi-client
 - docker push henrybarnacle/multi-nginx
 - docker push henrybarnacle/multi-server
