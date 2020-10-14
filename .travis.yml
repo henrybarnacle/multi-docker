@@ -5,10 +5,10 @@ services:
   - docker
 
 before_install:
-  - docker build -t henrybarnacle/react-test -f ./client/Dockerfile ./client
+  - docker build -t henrybarnacle/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run -e CI=true henrybarnacle/react-test npm test
+  - docker run -e CI=true henrybarnacle/react-test npm run test
 
 after_success:
   - docker build -t henrybarnacle/multi-client ./client
