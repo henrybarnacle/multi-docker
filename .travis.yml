@@ -16,7 +16,6 @@ after_success:
 #log in to docker CLI
 -echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 #take those images nd push them to docker hub
-
 - docker push henrybarnacle/multi-client
 - docker push henrybarnacle/multi-nginx
 - docker push henrybarnacle/multi-server
