@@ -1,3 +1,4 @@
+language: generic
 sudo: required
 services:
   - docker
@@ -5,7 +6,7 @@ before_install:
   - docker build -t henrybarnacle/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run henrybarnacle/react-test npm test -- --coverage
+  - docker run -e CI=true henrybarnacle/react-test npm test
 
 after_success:
   - docker build -t henrybarnacle/multi-client ./client
@@ -14,6 +15,7 @@ after_success:
   - docker build -t henrybarnacle/multi-worker ./worker
 
 #log in to docker CLI
+
 -echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 #take those images nd push them to docker hub
 - docker push henrybarnacle/multi-client
