@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5406933-8f9c-4b20-b96a-6fe0cbc5e7dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/Dockerfile.dev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/Fib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/OtherPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client2/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile.dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/nginx/default.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Fib.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/OtherPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="e5406933-8f9c-4b20-b96a-6fe0cbc5e7dd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +13,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client2/nginx/default.conf">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/nginx/default.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -68,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx/Dockerfile.dev">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="50" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -96,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client2/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/client/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -123,7 +77,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client2/Dockerfile.dev">
+        <entry file="file://$PROJECT_DIR$/client/Dockerfile.dev">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
@@ -144,7 +98,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -272,7 +226,7 @@
       <workItem from="1601560817307" duration="570000" />
       <workItem from="1601644052917" duration="18825000" />
       <workItem from="1602533364642" duration="4674000" />
-      <workItem from="1602686912800" duration="10395000" />
+      <workItem from="1602686912800" duration="11362000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1600978077508</created>
@@ -393,16 +347,23 @@
       <option name="project" value="LOCAL" />
       <updated>1602705137726</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="initial commit">
+      <created>1602705897812</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602705897812</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53170000" />
+    <option name="totallyTimeSpent" value="54137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17270789" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17270789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +381,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -485,7 +446,7 @@
     <entry file="file://$PROJECT_DIR$/server/my-app/src/app/app.component.html" />
     <entry file="file://$PROJECT_DIR$/server/my-app/src/index.html" />
     <entry file="file://$PROJECT_DIR$/server/my-app/src/app/services/my-service.service.ts" />
-    <entry file="file://$PROJECT_DIR$/client2/README.md">
+    <entry file="file://$PROJECT_DIR$/client/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -493,7 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/src/OtherPage.js">
+    <entry file="file://$PROJECT_DIR$/client/src/OtherPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -503,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/src/Fib.js">
+    <entry file="file://$PROJECT_DIR$/client/src/Fib.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
@@ -513,7 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/src/App.js">
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
@@ -523,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/src/index.js">
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
@@ -558,7 +519,7 @@
     <entry file="file://$PROJECT_DIR$/checkpoint/checkpoint/server/index.js" />
     <entry file="file://$PROJECT_DIR$/checkpoint/checkpoint/client/public/manifest.json" />
     <entry file="file://$PROJECT_DIR$/checkpoint/checkpoint/client/package.json" />
-    <entry file="file://$PROJECT_DIR$/client2/package.json">
+    <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
@@ -624,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile.dev">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -645,7 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/Dockerfile.dev">
+    <entry file="file://$PROJECT_DIR$/client/Dockerfile.dev">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
@@ -655,17 +609,24 @@
     <entry file="file://$PROJECT_DIR$/client/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/client/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/nginx/default.conf">
+    <entry file="file://$PROJECT_DIR$/client/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile.dev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
