@@ -5,15 +5,15 @@ services:
   - docker
 
 before_install:
-  - docker build -t henrybarnacle/react-test -f ./client/Dockerfile.dev ./client
+  - docker build -t henrygoosebarnacle/react-test -f ./client/Dockerfile.dev ./client
 
 after_success:
-  - docker build -t henrybarnacle/multi-client ./client
-  - docker build -t henrybarnacle/multi-nginx ./nginx
-  - docker build -t henrybarnacle/multi-server ./server
-  - docker build -t henrybarnacle/multi-worker ./worker
+  - docker build -t henrygoosebarnacle/multi-client ./client
+  - docker build -t henrygoosebarnacle/multi-nginx ./nginx
+  - docker build -t henrygoosebarnacle/multi-server ./server
+  - docker build -t henrygoosebarnacle/multi-worker ./worker
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker push henrybarnacle/multi-client
-  - docker push henrybarnacle/multi-nginx
-  - docker push henrybarnacle/multi-server
-  - docker push henrybarnacle/multi-worker
+  - docker push henrygoosebarnacle/multi-client
+  - docker push henrygoosebarnacle/multi-nginx
+  - docker push henrygoosebarnacle/multi-server
+  - docker push henrygoosebarnacle/multi-worker
